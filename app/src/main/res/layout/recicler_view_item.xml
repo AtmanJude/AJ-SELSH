@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp" >
+
+        <ImageView
+            android:id="@+id/kartinka"
+            android:layout_width="50dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/zag"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Default String Default String Default String Default String "
+            android:textSize="15dp"
+            android:layout_toEndOf="@+id/kartinka"/>
+
+        <TextView
+            android:id="@+id/lid"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_below="@+id/zag"
+            android:textSize="10dp"
+            android:layout_toEndOf="@+id/kartinka"
+            android:text="Default String Default String Default String Default String " />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
